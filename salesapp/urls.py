@@ -6,7 +6,7 @@ from . import views
 from blog import views as blogViews
 from about import views as aboutViews
 
-# tambahan url ok
+# tambahan url di tempatkan di bawah ini
 urlpatterns = [
     path('admin/', admin.site.urls,name='administrator'),
     path('',views.index,name='index-satu'),
